@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+.navbarTop {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color:#2F3260;
+    box-shadow: 0px 2px 6px 1px rgb(0 0 0 / 11%);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 100%;
+}
+.logo {
+    display: flex;
+}
+.logoimg {
+    width: 150px;
+}
+.register {
+    display: inline-block;
+}
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #F2CB05;
+    text-align: center;
+    background-color:#2F3260;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 7px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border-color: #292929;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn:hover {
+    color:#2F3260;
+    background-color:#F2CB05;
+    border-color: #2F3260;
+}
+.btn-top {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #;
+    text-align: center;
+    background-color:#F2CB05;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 7px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border-color: #292929;
+    transition: color 0.15s ease-in-out, background-color 0.15  s ease-in-ou  t,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-top:hover {
+    color:#F2CB05;
+    background-color:#2F3260;
+    border-color:#F2CB05;
+}
+.search-box {
+    padding: 4px 10px;
+    border: 2px solid #292929;
+    color: #4a2d03;
+    font-size: 16px;
+    width: 500px;
+    height: 28px;
+    background-color: #F2CB05;
+    border-radius: 4px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.search-icon {
+    padding-top: 6px;
+}
+.btn-search {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    color: #292929;
+    font-size: 27px;
+    position: absolute;
+    border: none;
+    padding-top: 0px;
+}
+.main {
+}
+.sort {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 100px;
+}
+.albumlist {
+    margin-right: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    --bs-gutter-x: 5rem;
+    flex-wrap: wrap;
+}
+.picfilm {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    height: auto;
+    width: 278px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+.cover {
+    width: inherit;
+    height: auto;
+}
+.filmtitle {
+    font-size: 16px;
+    margin: 0;
+    padding: 0px 8px 5px 8px;
+}

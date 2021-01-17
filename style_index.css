@@ -1,0 +1,141 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: -20px 0 0 0;
+    background-color: #2F3260;
+    padding: 0;
+    min-height: 100vh 
+}
+*{
+    box-sizing: border-box;
+}
+.main-content{
+    position: absolute;
+    background-color: #2F3260;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    transform: translate(-50%,-50% );
+    color: #F2921D;
+}
+.index-wrapper{
+    background-color: #2F3260;
+    min-height: 100vh;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    color: #000000;
+    font-size: 25px
+}
+.search-box{
+    background: #F2A922;
+    padding: 10px;
+    border-radius: 2rem;
+    display: flex;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.search.btn{
+    color: #F2CB05;
+    display: inline-block;
+    padding: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:cyan;
+}
+.search-txt{
+    border: none;
+    background: none;
+    text-align: center;
+    display: flex;
+    display: block;
+    width: 100%;
+    padding: 10px, 10px;
+    color: #010326;
+    font-size: 16px;
+    transition: 0.4s;
+}
+.moviepage-btn a{
+    text-decoration: none;
+    color:#2F3260;
+}
+
+.moviepage-btn {
+    position: absolute;
+    
+    top: 70%;
+    left: 44%;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    background-color:#F2CB05;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 7px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border-color: #292929;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.moviepage-btn:hover {
+  color:#F2CB05;
+  background-color:#2F3260;
+  border-color: #F2CB05;
+}
+.moviepage-btn a:hover{
+    color: #F2CB05;
+    border-color: #F2CB05;
+
+}
+nav ul{
+    list-style-type:none;
+    display: flex;
+}
+nav ul li a {
+    padding: 14px;
+    text-decoration: none;
+    color: #F2CB05; 
+    box-sizing: border-box;
+    font-size: medium;
+}
+nav ul li a:hover{
+    font-size: large;
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    color: #F2CB05;
+    font-size: 12px;
+}
+.search-footer{
+    text-align: center;
+    position: relative;
+}
+@media screen and (max-width: 600px){
+.search-box{
+    background: #F2A922;
+    padding: 10px;
+    width: 300px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+}
+.flex{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 80px;
+
+}
